@@ -1,0 +1,18 @@
+.result-table {
+  text-align: center;
+  margin-top: 20px;
+  border: 0.2rem solid #fff;
+  table-layout: fixed;
+  color: inherit;
+  border-collapse: collapse;
+}
+
+.result-table tr {
+  border: 2px solid #ffffff;
+}
+.result-table td {
+  border: 1px solid white;
+}
+
+.result-table tr:nth-child(2n-1) {
+}

@@ -1,0 +1,13 @@
+
+<div *ngIf="authenticated">
+  <div id="welcome-about">
+    {{message}}
+  </div>
+  <app-graph></app-graph>
+</div>
+
+<div *ngIf="!authenticated">
+  To use this web application you should be authorized.
+  <br>
+  {{todaysDataTime}}
+</div>
